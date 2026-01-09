@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 # ------------------ PATHS ------------------
-DATA_PATH = "winequality_red.csv"
+DATA_PATH = "wine_quality.csv"
 OUTPUT_DIR = "outputs"
 MODEL_PATH = os.path.join(OUTPUT_DIR, "model.joblib")
 RESULTS_PATH = os.path.join(OUTPUT_DIR, "results.json")
